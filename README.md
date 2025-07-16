@@ -51,12 +51,14 @@ The extension transforms selected text by:
 ├── firefox/           # Firefox extension files
 │   ├── manifest.json
 │   ├── background.js
-│   └── content.js
+│   ├── content.js
+│   └── icon-96.png
 ├── chrome/            # Chrome extension files
 │   ├── manifest.json
 │   ├── background.js
 │   └── content.js
 ├── privacy-policy.html
+├── privacy-policy.md
 ├── .gitignore
 └── README.md
 ```
@@ -69,7 +71,7 @@ This extension:
 - Does not transmit data to external servers
 - Only activates when you use the context menu
 
-See [privacy-policy.html](privacy-policy.html) for full details.
+See [privacy-policy.html](privacy-policy.html) or [privacy-policy.md](privacy-policy.md) for full details.
 
 ## Development
 
